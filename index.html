@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="foodpage">
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="container headercontainer">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/Hot Meals.png" alt="mealslogo  " />
+        </div>
+
+        <div class="col-md-5">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><strong>Deliver to:</strong> Current Location
+                <strong>Ashok Nagar, Chennai-600013</strong></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 finalend">
+          <ul class="nav">
+            <li class="nav-item srchfood">
+              <a class="nav-link" href="#">Search Food</a>
+            </li>
+            <li class="nav-item loginli">
+              <a class="nav-link lginbtn" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 lftbanner">
+            <div class="home-content">
+              <h1>Look at your fav Meals</h1>
+              <h2>
+                Within a few clicks, find meals that are accessible near you
+              </h2>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <div class="row rowborder">
+                  <div class="col-md-3">
+                    <a class="delvry" href="#">Delivery</a>
+                  </div>
+                  <div class="col-md-3">
+                    <a class="pckup" href="#">Pickup</a>
+                  </div>
+                </div>
+                <form class="addressform">
+                  <input
+                    class="addressinput"
+                    type="text"
+                    placeholder="Enter Your Address"
+                  />
+                  <input
+                    type="submit"
+                    class="submitinput"
+                    value="Find Food"
+                    placeholder="Find Food"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="home-image">
+              <img src="images/foodright.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section start -->
+    <div class="itemsset">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/vada.png" />
+            <h1>Vada</h1>
+            <p>30 min Delivery</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/idly.png" />
+            <h1>Idly</h1>
+            <p>30 min Delivery</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/parotta.png" />
+            <h1>Parotta</h1>
+            <p>30 min Delivery</p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/kichadi.png" />
+            <h1>Kichadi</h1>
+            <p>30 min Delivery</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="itwork">
+      <div class="container">
+        <h1>How does it work</h1>
+        <div class="row rowcard">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/discount.png" />
+              </div>
+              <div class="col-md-6">
+                <h2>Daily Discounts</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/livetracking.png" />
+              </div>
+              <div class="col-md-6">
+                <h2>Live Tracing</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="images/quicklearn.png" />
+              </div>
+              <div class="col-md-6">
+                <h2>Quick Delivery</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="searchfood">
+      <div class="container">
+        <h1>Search by Food</h1>
+        <div class="row">
+          <div class="col-md-2">
+            <img src="images/dosa.png" />
+            <h2>Dosa</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="images/Aapam.png" />
+            <h2>Aappam</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="images/puttu.png" />
+            <h2>Puttu</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="images/idiyappam.png" />
+            <h2>Idiyappam</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="images/pongal.png" />
+            <h2>pongal</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="images/vegrice.png" />
+            <h2>Veg rice</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bestdeals">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 centerdeal">
+            <h1>Best deals <strong>Crispy Diffen</strong></h1>
+            <p>Enjoy the large size of Dosa. Complete perfect slice of Dosa.</p>
+            <a href="#">Proceed to order ></a>
+          </div>
+          <div class="col-md-8">
+            <div><img src="images/bestdealsdosa.png" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popularitems">
+      <div class="container">
+        <h1>Popular items</h1>
+        <div class="row firstrow">
+          <div class="col-md-2">
+            <img src="images/murukku.png" />
+            <h2>Murukku</h2>
+            <a href="#">Order Now</a>
+          </div>
+          <div class="col-md-2">
+            <img src="images/paniyaram.png" />
+            <h2>Paniyaram</h2>
+            <a href="#">Order Now</a>
+          </div>
+          <div class="col-md-2">
+            <img src="images/seeval murukku.png" />
+            <h2>Seeval Murukku</h2>
+            <a href="#">Order Now</a>
+          </div>
+          <div class="col-md-2">
+            <img src="images/mixture.png" />
+            <h2>Mixture</h2>
+            <a href="#">Order Now</a>
+          </div>
+          <div class="col-md-2">
+            <img src="images/veg soup.png" />
+            <h2>Veg Soup</h2>
+            <a href="#">Order Now</a>
+          </div>
+          <div class="row">
+            <div class="col-md-2">
+              <img src="images/gulab jamun.png" />
+              <h2>Gulab Jamun</h2>
+              <a href="#">Order Now</a>
+            </div>
+            <div class="col-md-2">
+              <img src="images/urundai.png" />
+              <h2>Porivellangai Urundai</h2>
+              <a href="#">Order Now</a>
+            </div>
+            <div class="col-md-2">
+              <img src="images/jangri.png" />
+              <h2>Jangri</h2>
+              <a href="#">Order Now</a>
+            </div>
+            <div class="col-md-2">
+              <img src="images/laddu.png" />
+              <h2>Lattu</h2>
+              <a href="#">Order Now</a>
+            </div>
+            <div class="col-md-2">
+              <img src="images/halwa.png" />
+              <h2>Halwa</h2>
+              <a href="#">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section start -->
+    <footer>
+      <div class="container">
+        <div class="row whlefoot">
+          <div class="col-md-2">
+            <h1>Company</h1>
+            <nav>
+              <ul>
+                <li>About us</li>
+                <li>Team</li>
+                <li>Careers</li>
+                <li>Blog</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2">
+            <h1>Contact</h1>
+            <nav>
+              <ul>
+                <li>Help & Support</li>
+                <li>Partner with us</li>
+                <li>Ride with us</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2">
+            <h1>Legal</h1>
+            <nav>
+              <ul>
+                <li>Terms & Conditions</li>
+                <li>Refund & Cancellation</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-6">
+            <h2>Follow us</h2>
+            <img src="images/instagram.png" />
+            <img src="images/fb.png" />
+            <img src="images/twitter.png" />
+            <h3>Receive exclusive offers in your mailbox</h3>
+            <form class="mailbox">
+              <input
+                class="mailinput"
+                type="text"
+                placeholder="Enter Your Address"
+              />
+              <input
+                type="submit"
+                class="subscribeinput"
+                value="Subscribe"
+                placeholder="Find Food"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footercopyRgt">
+              All Rights Reserved &copy;
+              <script type="text/javascript" type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script>
+            </div>
+          </div>
+          <div class="col-md-6 rightfoot">
+            <h4>Made with &#x2764; by <strong>Sanjay</strong></h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
